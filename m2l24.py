@@ -21,3 +21,18 @@ for i in range(nun1):
     for j in range(nun1-1):
         if not chet[j] <= chet[j+1]:
             chet[j], chet[j+1] = chet[j+1], chet[j]
+
+
+
+
+nun2=len(notchet)
+for i in range(nun2):
+    for j in range(nun2-1):
+        if not notchet[j] <= notchet[j+1]:
+            notchet[j], notchet[j+1] = notchet[j+1], notchet[j]
+
+print(chet)
+print(notchet)
+
+print(chet+notchet)
+
