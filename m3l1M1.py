@@ -1,5 +1,5 @@
 y=5
-z=False
+#z=False
 while True:
     x = int(input("Введите число от 1 до 10: "))
     if x==y:
@@ -7,7 +7,7 @@ while True:
         break
     elif x>y:
         print("Меньше")
-        z=False
+        #z=False
     else:
         print("Больше")
-        z=False
+        #z=False
